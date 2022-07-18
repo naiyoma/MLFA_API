@@ -127,14 +127,13 @@ WSGI_APPLICATION = 'malakoff_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydb',
-        'USER': 'myuser',
-        'PASSWORD': 'mypass',
-        'HOST': '127.0.0.1',
-        'PORT': '5433',
+        'NAME': 'd2t4gpajihqrv5',
+        'USER': 'vxnaojdkckmcma',
+        'PASSWORD': 'de36040704c15d3495b9fdbe317aac875dd9f8cd8ed5d307aea6f8a1fb580af1',
+        'HOST': 'ec2-54-87-179-4.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
