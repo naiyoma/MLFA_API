@@ -1,3 +1,68 @@
+## LIVE API
+
+USER REGISTRATION
+
+https://safe-chamber-55286.herokuapp.com/rest-auth/registration/
+
+`{
+    "email": "tinahuang@gmail.com",
+    "password1": "KindaTina",
+    "password2": "KindaTina"
+}`
+
+
+https://safe-chamber-55286.herokuapp.com/rest-auth/login/
+
+
+`{
+	"email": "nimo1234@gmail.com",
+	"password": "Nimoqwerty"
+}`
+
+https://safe-chamber-55286.herokuapp.com/users/list
+
+
+https://safe-chamber-55286.herokuapp.com/wallet/create
+
+
+`{
+    
+        "balance": "230.00",
+        "account_name": "BOKBank",
+        "account_number": "3213567",
+        "bank": "DepositBankAccount",
+        "phone_number": "0700000000",
+        "password": "MOnalisa",
+        "user": 39
+    
+}`
+
+
+https://safe-chamber-55286.herokuapp.com/wallet/deposit
+
+`{
+    "deposit_amount":"10" ,
+    "wallet": "92032560-4d12-4e46-b205-e8690f623ec9"
+
+}`
+
+
+https://safe-chamber-55286.herokuapp.com/wallet/withdraw
+
+`{
+    "amount_withdraw": "5.00",
+    "wallet": "92032560-4d12-4e46-b205-e8690f623ec9"
+}`
+
+
+https://safe-chamber-55286.herokuapp.com/wallet/transfer
+
+`{
+    "amount": "20.00",
+    "sender_wallet": "92032560-4d12-4e46-b205-e8690f623ec9",
+    "receiver_user": 37
+}`
+
 ## DEVELOPMENT
 
 clone the project
